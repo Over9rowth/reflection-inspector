@@ -1,0 +1,130 @@
+[
+  {
+    "file": "eval-mirror-a.jpg",
+    "class": "mirror",
+    "title": "File:Bathroom interior at Dead Lakes Park.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ABathroom_interior_at_Dead_Lakes_Park.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Bathroom_interior_at_Dead_Lakes_Park.jpg",
+    "pixelSize": [
+      3000,
+      2250
+    ],
+    "author": "The Bushranger",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "bytes": 1536253,
+    "sha256": "419b2e7576de28b3c88ede6ff77b93752eba7b81f6c21fdf2e25c8d9435273f4",
+    "changes": "Commons-served 3000px thumbnail; content otherwise unmodified",
+    "purpose": "development-set image; class verified visually before inference; no frozen accuracy claim"
+  },
+  {
+    "file": "eval-mirror-b.jpg",
+    "class": "mirror",
+    "title": "File:Manatee Springs State Park bathroom mirrors.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AManatee_Springs_State_Park_bathroom_mirrors.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Manatee_Springs_State_Park_bathroom_mirrors.jpg",
+    "pixelSize": [
+      3000,
+      2250
+    ],
+    "author": "The Bushranger",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "bytes": 1791633,
+    "sha256": "11f5882c3f89644c2953bc819ef8786ab7c902402afab626d587839f8a998345",
+    "changes": "Commons-served 3000px thumbnail; content otherwise unmodified",
+    "purpose": "development-set image; class verified visually before inference; no frozen accuracy claim"
+  },
+  {
+    "file": "eval-mirror-c.jpg",
+    "class": "mirror",
+    "title": "File:Old bathroom with subway tiles.JPG",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AOld_bathroom_with_subway_tiles.JPG",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Old_bathroom_with_subway_tiles.JPG/3840px-Old_bathroom_with_subway_tiles.JPG",
+    "pixelSize": [
+      3000,
+      2250
+    ],
+    "author": "Alf van Beem",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "bytes": 1228704,
+    "sha256": "0064bcb18f4251c7096290f2abe44f37feaffe7818b04d6cc30f73b21da8c643",
+    "changes": "Commons-served 3000px thumbnail; content otherwise unmodified",
+    "purpose": "development-set image; class verified visually before inference; no frozen accuracy claim"
+  },
+  {
+    "file": "eval-glass-a.jpg",
+    "class": "glass",
+    "title": "File:Building in Paulista Avenue 09.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ABuilding_in_Paulista_Avenue_09.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Building_in_Paulista_Avenue_09.jpg",
+    "pixelSize": [
+      3000,
+      2517
+    ],
+    "author": "Wilfredor",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "bytes": 4830848,
+    "sha256": "27fe7ea9ea19399e04c2c6c7cd52c4f2fbe29a48346931564b73079ece47a75b",
+    "changes": "Commons-served 3000px thumbnail; content otherwise unmodified",
+    "purpose": "development-set image; class verified visually before inference; no frozen accuracy claim"
+  },
+  {
+    "file": "eval-glass-b.jpg",
+    "class": "glass",
+    "title": "File:Glass facade of an illuminated shopping mall at blue hour with vertical symmetry impression, Orchard Road, Singapore.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AGlass_facade_of_an_illuminated_shopping_mall_at_blue_hour_with_vertical_symmetry_impression%2C_Orchard_Road%2C_Singapore.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Glass_facade_of_an_illuminated_shopping_mall_at_blue_hour_with_vertical_symmetry_impression%2C_Orchard_Road%2C_Singapore.jpg/3840px-Glass_facade_of_an_illuminated_shopping_mall_at_blue_hour_with_vertical_symmetry_impression%2C_Orchard_Road%2C_Singapore.jpg",
+    "pixelSize": [
+      3000,
+      2142
+    ],
+    "author": "Basile Morin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "bytes": 2002449,
+    "sha256": "9c6e6d73b92af9d3d6f18815b7fe5d2fe6b84028cb71952c1101469c4521137b",
+    "changes": "Commons-served 3000px thumbnail; content otherwise unmodified",
+    "purpose": "development-set image; class verified visually before inference; no frozen accuracy claim"
+  },
+  {
+    "file": "eval-glass-c.jpg",
+    "class": "glass",
+    "title": "File:Your typical plain and empty RadioShack in Ashtabula, Ohio (2014-03-15 11.43.47 by Nicholas Eckhart).jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AYour_typical_plain_and_empty_RadioShack_in_Ashtabula%2C_Ohio_%282014-03-15_11.43.47_by_Nicholas_Eckhart%29.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Your_typical_plain_and_empty_RadioShack_in_Ashtabula%2C_Ohio_%282014-03-15_11.43.47_by_Nicholas_Eckhart%29.jpg/3840px-Your_typical_plain_and_empty_RadioShack_in_Ashtabula%2C_Ohio_%282014-03-15_11.43.47_by_Nicholas_Eckhart%29.jpg",
+    "pixelSize": [
+      3000,
+      2245
+    ],
+    "author": "Nicholas Eckhart from Elyria, Ohio, United States of America",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "bytes": 1499994,
+    "sha256": "07978b6d7ae85947cad27de8562511fb6722dd0844070529255a598124510838",
+    "changes": "Commons-served 3000px thumbnail; content otherwise unmodified",
+    "purpose": "development-set image; class verified visually before inference; no frozen accuracy claim",
+    "note": "reclassified after visual check: storefront has large glass panes; originally fetched as negative, NOT a no-target sample"
+  },
+  {
+    "file": "eval-none-b.jpg",
+    "class": "none",
+    "title": "File:DSC 9842 Empty seaside-style cafeteria with rows of tables covered in bright blue tablecloths simple wooden chairs hanging pendant lights and a counter displaying menu pictures and condiments.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ADSC_9842_Empty_seaside-style_cafeteria_with_rows_of_tables_covered_in_bright_blue_tablecloths_simple_wooden_chairs_hanging_pendant_lights_and_a_counter_displaying_menu_pictures_and_condiments.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/DSC_9842_Empty_seaside-style_cafeteria_with_rows_of_tables_covered_in_bright_blue_tablecloths_simple_wooden_chairs_hanging_pendant_lights_and_a_counter_displaying_menu_pictures_and_condiments.jpg/3840px-thumbnail.jpg",
+    "pixelSize": [
+      3000,
+      2000
+    ],
+    "author": "PattayaPatrol",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "bytes": 1581228,
+    "sha256": "dcd1fa2675d2d0684d5d1d3f2ebe8f55f18f9960c1b73826fc39da0917dd090c",
+    "changes": "Commons-served 3000px thumbnail; content otherwise unmodified",
+    "purpose": "development-set image; class verified visually before inference; no frozen accuracy claim",
+    "note": "negative sample with caveat: small glass aquarium visible in background; no mirrors or window panes"
+  }
+]

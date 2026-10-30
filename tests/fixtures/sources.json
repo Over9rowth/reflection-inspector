@@ -1,0 +1,26 @@
+[
+  {
+    "file": "mirror.jpg",
+    "author": "Shixart1985",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Bright_bathroom_with_mirror_and_sink.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Bright_bathroom_with_mirror_and_sink.jpg",
+    "changes": "none; original download",
+    "bytes": 12432103,
+    "sha256": "303695b604b6f22ad48a1e4e65ddb6a3fd537f0f12eb31b8d453a3819f6593e8",
+    "purpose": "real-photo smoke test; no frozen human annotations"
+  },
+  {
+    "file": "glass.jpg",
+    "author": "Shixart1985",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Modern_bathroom_with_wooden_and_glass_parts.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Modern_bathroom_with_wooden_and_glass_parts.jpg",
+    "changes": "none; original download",
+    "bytes": 13501011,
+    "sha256": "d83bd8ff932e8082a9b8328f1c71bfbb71f186f51c0af9419bbbb83748cf886a",
+    "purpose": "real-photo smoke test; no frozen human annotations"
+  }
+]

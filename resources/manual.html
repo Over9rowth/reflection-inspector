@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>反光检查镜 · 用户使用说明书</title>
+<style>
+  @page { size: A4; margin: 18mm 16mm; }
+  * { box-sizing: border-box; }
+  body { font: 11pt/1.75 "Microsoft YaHei", "PingFang SC", sans-serif; color: #1d2430; margin: 0; }
+  h1 { font-size: 22pt; margin: 0 0 4px; letter-spacing: .5px; }
+  .sub { color: #6b7785; font-size: 10pt; margin-bottom: 18px; }
+  h2 { font-size: 13.5pt; margin: 22px 0 8px; padding-left: 9px; border-left: 4px solid #2f7f74; }
+  h3 { font-size: 11.5pt; margin: 14px 0 4px; color: #2b3a4a; }
+  p, li { font-size: 10.5pt; }
+  ol, ul { padding-left: 22px; margin: 6px 0; }
+  li { margin: 3px 0; }
+  .box { border: 1px solid #d7dde4; border-radius: 6px; padding: 10px 14px; margin: 10px 0; background: #f7f9fa; }
+  .warn { border-color: #e3c07a; background: #fdf7e9; }
+  .danger { border-color: #e0a8a0; background: #fdf0ee; }
+  table { width: 100%; border-collapse: collapse; margin: 8px 0; font-size: 10pt; }
+  th, td { border: 1px solid #d7dde4; padding: 6px 9px; text-align: left; vertical-align: top; }
+  th { background: #eef2f5; font-weight: 600; }
+  code { font-family: Consolas, "Courier New", monospace; font-size: 9.5pt; background: #eef2f5; padding: 1px 4px; border-radius: 3px; }
+  .foot { margin-top: 26px; padding-top: 10px; border-top: 1px solid #d7dde4; color: #6b7785; font-size: 9pt; }
+  .page-break { page-break-before: always; }
+</style>
+</head>
+<body>
+
+<h1>反光检查镜</h1>
+<div class="sub">用户使用说明书 · 适用于 0.2.0 及以后版本</div>
+
+<div class="box">
+  <strong>一句话说明：</strong>它帮你在照片里找出「镜子、玻璃、屏幕、金属」这类会反光的区域，
+  由你确认后盖上纯色块或马赛克，再按原图尺寸导出。模型只提建议，盖不盖由你决定。
+</div>
+
+<h2>1. 它适合谁</h2>
+<ul>
+  <li>发二手物品照片，不想让镜子照出家中的布局；</li>
+  <li>发工作照，不想让屏幕上的聊天记录被拍进去；</li>
+  <li>发旅拍，不想让玻璃反光里出现同行的人。</li>
+</ul>
+
+<h2>2. 三步上手</h2>
+
+<h3>第一步：打开照片</h3>
+<p>点左上角「选择照片」，或直接把图片文件拖进窗口。支持 JPEG、PNG、WebP。</p>
+
+<h3>第二步：找出反光</h3>
+<p>有两条路，选一条就行：</p>
+<ul>
+  <li><strong>自动建议</strong>（需要模型资源，见第 4 节）：点顶栏「自动建议」，稍等十几秒，
+      右侧会出现若干条候选区域，每条都标了类型（镜子 / 玻璃）和置信度。</li>
+  <li><strong>手动框选</strong>（任何时候都能用）：点顶栏「手动框选」，在照片上按住拖一个框，
+      松手就生成一条遮挡区域。</li>
+</ul>
+<p>自动建议出来后，逐条点「接受」或「拒绝」。<strong>只有被接受的那条才会被盖住。</strong></p>
+
+<h3>第三步：检查并导出</h3>
+<ol>
+  <li>用鼠标滚轮放大，拖动画面平移，仔细看反光里到底有什么——这一步别省。</li>
+  <li>确认每条遮挡是「纯色块」还是「马赛克」；纯色块更彻底，马赛克保留一点画面结构。</li>
+  <li>点「导出遮挡图」，选保存位置。导出的图片是<strong>原图尺寸</strong>，且<strong>不含 EXIF</strong>
+      （拍摄地点、机型、时间都去掉了）。</li>
+</ol>
+
+<div class="box warn">
+  <strong>重要：</strong>导出的是新文件，原图不会被改动。如果原图已经发出去过，这次的遮挡不能收回之前的。
+</div>
+
+<h2 class="page-break">3. 它不能做什么</h2>
+<table>
+  <tr><th>场景</th><th>实际表现</th></tr>
+  <tr><td>暗光、过曝的强反光</td><td>可能漏检，请手动补框</td></tr>
+  <tr><td>曲面镜、球面金属</td><td>建议框可能不准，建议手动框选</td></tr>
+  <tr><td>画面里很小的一块反光</td><td>可能漏检，请放大后手动补</td></tr>
+  <tr><td>判断「这块是不是反光」</td><td>模型只给候选，最终要靠你自己看</td></tr>
+  <tr><td>RAW / HEIC 格式</td><td>不支持，请先转成 JPEG 或 PNG</td></tr>
+</table>
+<div class="box danger">
+  <strong>它不是测量仪器，也不是取证工具。</strong>遮挡是像素替换，不做加密、不做不可逆销毁；
+  它也不做人脸或文字识别，只告诉你「这里是一块反光面」。
+</div>
+
+<h2>4. 运行环境与模型资源</h2>
+<p>安装包<strong>不含</strong>模型权重（约 1 GB），这样安装包才不至于大到没法下载。首次打开如果发现资源不齐，
+会自动弹出「运行环境与模型资源」向导。</p>
+
+<h3>4.1 一键下载并校验</h3>
+<ul>
+  <li>只有你点了「一键下载并校验模型资源」，程序才会联网；</li>
+  <li>每个文件都按清单里固定的版本号与 SHA-256 校验，先存成 <code>.part</code>，校验通过才改名；</li>
+  <li>校验不通过的文件会被删掉，不会留下坏文件；</li>
+  <li>默认存到 <code>%LOCALAPPDATA%\Over9rowth\ReflectionInspector\models</code>。</li>
+</ul>
+
+<h3>4.2 导入本地离线资源包</h3>
+<p>如果已经有别人给你的模型目录（里面应当包含 <code>grounding-dino-tiny</code> 与 <code>sam-vit-base</code>
+两个子目录），点「导入本地离线资源包」选中那个目录即可。程序只校验与登记，不会复制文件。</p>
+
+<h3>4.3 不想装？用纯手动模式</h3>
+<p>在向导里点「稍后再说（用纯手动模式）」，向导会关掉，之后：</p>
+<ul>
+  <li>「自动建议」按钮不可用（灰色）；</li>
+  <li><strong>手动框选、纯色块、马赛克、全分辨率导出，全部照常可用</strong>；</li>
+  <li>顶栏会显示「纯手动模式」，随时点它可以重新打开向导。</li>
+</ul>
+
+<h2>5. 常见问题</h2>
+<table>
+  <tr><th>现象</th><th>怎么办</th></tr>
+  <tr><td>点「自动建议」没反应 / 按钮是灰的</td><td>看顶栏是否显示「纯手动模式」。是的话点它打开向导，补齐资源后再试。</td></tr>
+  <tr><td>下载到一半失败</td><td>再点一次「一键下载并校验」即可，已校验通过的文件会跳过。</td></tr>
+  <tr><td>导出的图比原图小</td><td>正常不会。若发生，请确认没有在导出对话框里选到缩放选项，并反馈该现象。</td></tr>
+  <tr><td>卸载后资源目录还在</td><td>模型资源放在用户目录，卸载不删除，避免重装后又要下 1 GB。可手动删 <code>%LOCALAPPDATA%\Over9rowth\ReflectionInspector</code>。</td></tr>
+  <tr><td>Windows 提示「未知发布者」</td><td>安装包未做代码签名，属正常现象，选择「更多信息 → 仍要运行」。</td></tr>
+</table>
+
+<h2>6. 隐私说明</h2>
+<ul>
+  <li>照片只在本机内存与本地磁盘处理，<strong>没有任何上传接口</strong>；</li>
+  <li>推理在本机 Python 进程里进行，强制离线模式；</li>
+  <li>只有「一键下载模型资源」会在你确认后访问 Hugging Face 官方地址，且只下载模型文件，不上传任何内容。</li>
+</ul>
+
+<div class="foot">
+  反光检查镜 · MIT 许可 · 模型为 IDEA-Research/grounding-dino-tiny 与 facebook/sam-vit-base（Apache-2.0）。
+  本说明书对应 0.2.0 版本；界面以实际程序为准。
+</div>
+
+</body>
+</html>

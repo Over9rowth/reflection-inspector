@@ -1,0 +1,39 @@
+# 依赖与构建产物
+node_modules/
+dist/
+dist-desktop/
+out/
+out-*/
+.vite/
+.venv/
+__pycache__/
+outputs/
+
+# AI 权重与临时分片
+resources/models/
+resources/checkpoint/
+*.ckpt
+*.safetensors
+*.onnx
+*.part
+
+# 安装包与归档（仅作为 Release 附件）
+*.exe
+*.nupkg
+*.zip
+RELEASES
+
+# 研发部内部派工与交接元数据（严禁进入公开仓库）
+SPEC.md
+project_meta/
+
+# 日志与系统文件（仅保留已脱敏的 docs/*.log）
+*.log
+!docs/*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+tests/fixtures/*.jpg

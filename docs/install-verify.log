@@ -1,0 +1,42 @@
+[check] 复制安装包到 ASCII 路径
+PASS | Setup.exe 可访问 | 153978880 字节
+[check] 静默安装
+PASS | 安装退出码 0 | exit=0
+PASS | 安装目录与 app-0.2.0 存在 | <用户目录>\AppData\Local\ReflectionInspector\app-0.2.0
+PASS | 主程序存在 | 
+PASS | 注册表卸载项唯一 | [{'sub': 'ReflectionInspector', 'DisplayName': '反光检查镜', 'DisplayVersion': '0.2.0', 'Publisher': 'Over9rowth'}]
+PASS | DisplayVersion = 0.2.0 | 0.2.0
+PASS | Publisher = Over9rowth | Over9rowth
+PASS | 开始菜单快捷方式 | <用户目录>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\反光检查镜.lnk
+PASS | 桌面快捷方式 | <用户目录>\Desktop\反光检查镜.lnk
+[check] 从快捷方式启动并核对窗口标题（码位比对）
+PASS | 窗口标题「反光检查镜」 | FindWindowW=找到 期望码位=['0x53cd', '0x5149', '0x68c0', '0x67e5', '0x955c']
+[check] 安装版跑纯手动模式冒烟（无 Python 依赖）
+PASS | 安装版 SMOKE-MANUAL PASS | exit=0 | {'ok': True, 'width': 240, 'height': 160, 'bytes': 857, 'editedPixels': 6984, 'edits': 2, 'sha256': 'e77761ddd29131d2bb3bf5bf41890ea9a9619414263258d9744665c663c4fd46'}
+[check] 卸载
+PASS | 卸载退出码 0 | exit=0
+PASS | 注册表卸载项已清除 | 
+PASS | 开始菜单快捷方式已删除 | 
+PASS | 桌面快捷方式已删除 | 
+PASS | 残留仅为 Squirrel 固有项 | ['.dead', 'Update.exe', 'app-0.2.0']
+[check] 残留明细：{'.dead': '-', 'Update.exe': '-', 'app-0.2.0': ['squirrel.exe']}
+
+===== 验收汇总 =====
+PASS | Setup.exe 可访问
+PASS | 安装退出码 0
+PASS | 安装目录与 app-0.2.0 存在
+PASS | 主程序存在
+PASS | 注册表卸载项唯一
+PASS | DisplayVersion = 0.2.0
+PASS | Publisher = Over9rowth
+PASS | 开始菜单快捷方式
+PASS | 桌面快捷方式
+PASS | 窗口标题「反光检查镜」
+PASS | 安装版 SMOKE-MANUAL PASS
+PASS | 卸载退出码 0
+PASS | 注册表卸载项已清除
+PASS | 开始菜单快捷方式已删除
+PASS | 桌面快捷方式已删除
+PASS | 残留仅为 Squirrel 固有项
+
+16/16 项通过

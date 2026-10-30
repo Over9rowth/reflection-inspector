@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect x="0" y="0" width="256" height="256" rx="52" fill="#10151c"/>
+  <!-- 玻璃/镜面板：倾斜的四边形，暗示观察面 -->
+  <path d="M62 176 L62 92 L150 48 L150 132 Z" fill="#1b2430" stroke="#6aa8e8" stroke-width="11" stroke-linejoin="round"/>
+  <!-- 落在板上的光斑 -->
+  <path d="M84 154 L84 118 L128 96 L128 132 Z" fill="#eebc53" opacity="0.92"/>
+  <!-- 遮挡块：实心覆盖，代表“已遮住” -->
+  <rect x="128" y="132" width="72" height="72" rx="10" fill="#0e1319" stroke="#eebc53" stroke-width="11"/>
+  <path d="M148 168 L180 168" stroke="#eebc53" stroke-width="11" stroke-linecap="round"/>
+</svg>
